@@ -1,0 +1,17 @@
+Function WhoIsOlder(birthday1, birthday2)
+    If year is earlier → that person is older
+    If same year → compare months
+        If same month → compare days
+            If same day → they are the same age
+    Return result
+
+Main
+    Ask user for Person 1's birth month, day, and year
+    Ask user for Person 2's birth month, day, and year
+    Call WhoIsOlder with two birthdays
+    If function says person 1 is older → print message
+    Else if person 2 is older → print message
+    Else → print "They are the same age"
+
+// If you are ahead I encourage you to prepare for edge cases
+// What happens if the user provides 'February' instead of 02
