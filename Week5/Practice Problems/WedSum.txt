@@ -1,0 +1,11 @@
+Set sum to 0
+
+Ask the user to enter a number
+Store it in num
+
+While num is not negative:
+    Add num to sum
+    Ask the user to enter another number
+    Store it in num
+
+Print sum
