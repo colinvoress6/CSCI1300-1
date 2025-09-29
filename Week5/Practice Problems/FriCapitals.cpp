@@ -9,7 +9,7 @@ int main() {
     cout << "What is your string? ";
     getline(cin, input); // Recall getline to read a string with spaces
 
-    int length = static_cast<int>(input.length()); // Convert size_type to int safely
+    int length = input.length();
 
     for (int i = 0; i < length; i++) { // For loop
         char c = input.at(i);
