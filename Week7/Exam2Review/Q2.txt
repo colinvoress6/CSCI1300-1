@@ -1,0 +1,12 @@
+
+if the letter is 'k', 'm', or 'o'
+    if the number is odd
+        color = "Pink"
+    else
+        color = "Green"
+else
+    if the number is even
+        color = "Orange"
+    else
+        color = "Blue"
+

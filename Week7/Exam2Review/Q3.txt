@@ -1,0 +1,12 @@
+
+if the letter is 'j', 'l', 'n'
+    if the number is divisible by 3
+        color = "Cyan"
+    else
+        color = "Magenta"
+else
+    if the number is greater than 22
+        color = "Brown"
+    else
+        color = "White"
+

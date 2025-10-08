@@ -1,0 +1,16 @@
+
+switch (grade) {
+   case 'A':
+      cout << "Excellent";
+      break;
+   case 'B':
+      cout << "Good";
+      break;
+   case 'C':
+      cout << "Average";
+      break;
+   default:
+      cout << "Invalid grade";
+}
+
+

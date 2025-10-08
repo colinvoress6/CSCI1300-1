@@ -1,0 +1,39 @@
+// Option A
+if (grade == 'A')
+   cout << "Excellent";
+if (grade == 'B')
+   cout << "Good";
+if (grade == 'C')
+   cout << "Average";
+else
+   cout << "Invalid grade";
+
+// Option B
+if (grade = 'A')
+   cout << "Excellent";
+else if (grade = 'B')
+   cout << "Good";
+else if (grade = 'C')
+   cout << "Average";
+else
+   cout << "Invalid grade";
+
+// Option C
+if (grade == 'A')
+   cout << "Excellent";
+else if (grade == 'B')
+   cout << "Good";
+else if (grade == 'C')
+   cout << "Average";
+else
+   cout << "Invalid grade";
+
+// Option D
+if (grade == 'A')
+   cout << "Excellent";
+else
+   cout << "Good";
+
+
+
+

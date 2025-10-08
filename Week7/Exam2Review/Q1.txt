@@ -1,0 +1,14 @@
+
+if the letter is 'a', 'c', 'e', or 'g'
+    if the number is even
+        color = "Blue"
+    else
+        color = "Red"
+else
+    if the number is odd
+        color = "Purple"
+    else
+        color = "Gray"
+
+
+

@@ -1,0 +1,16 @@
+
+int do_it(int x, int y)
+{
+   int val = 0;
+   if (x < y)
+   {
+      val = x + 1;
+   }
+   else
+   {
+      val = y - 1;
+   }
+   // the last statement goes here
+}
+
+
