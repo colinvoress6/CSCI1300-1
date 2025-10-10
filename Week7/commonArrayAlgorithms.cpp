@@ -24,6 +24,7 @@ int main() {
 
     // // 1. Fill array with 0
     // for(int i = 0; i < size; i++) a[i] = 0;
+
     // cout << "After filling with 0: ";
     // for(int i = 0; i < size; i++) cout << a[i] << " ";
     // cout << "\n\n";
@@ -32,6 +33,7 @@ int main() {
     // int b[capacity];
     // int bSize = size;
     // for(int i = 0; i < size; i++) b[i] = a[i];
+
     // cout << "Copied array b: ";
     // for(int i = 0; i < bSize; i++) cout << b[i] << " ";
     // cout << "\n\n";
@@ -100,6 +102,7 @@ int main() {
     // int valueToInsert = 42;
     // // Explain line 95
     // if(size < capacity) a[size++] = valueToInsert;
+
     // cout << "After inserting at end: ";
     // for(int i = 0; i < size; i++) cout << a[i] << " ";
     // cout << "\n\n";
@@ -126,30 +129,30 @@ int main() {
     // for(int k = 0; k < size; k++) cout << a[k] << " ";
     // cout << "\n\n";
 
-    // // 11a. Read fixed number of inputs
-    // cout << "Enter number of elements to input: ";
-    // int N;
-    // cin >> N;
-    // for(int i = 0; i < N && i < capacity; i++) cin >> a[i];
-    // size = N;
-    // cout << "Array after fixed input: ";
-    // for(int i = 0; i < size; i++) cout << a[i] << " ";
-    // cout << "\n\n";
+    // 11a. Read fixed number of inputs
+    cout << "Enter number of elements to input: ";
+    int N;
+    cin >> N;
+    for(int i = 0; i < N && i < capacity; i++) cin >> a[i];
+    size = N;
+    cout << "Array after fixed input: ";
+    for(int i = 0; i < size; i++) cout << a[i] << " ";
+    cout << "\n\n";
 
-    // // 11b. Read inputs with capacity and stop with 'done'
-    // // Textbook example modified to include sentinel value
-    // size = 0;
-    // string input;
-    // cout << "Enter integers (type 'done' to stop):\n";
-    // while(size < capacity) {
-    //     cout << "Value #" << size + 1 << ": ";
-    //     cin >> input;
-    //     if(input == "done") break;
-    //     // Consider adding additional input validation
-    //     // This line would throw an error if type mismatch
-    //     int val = stoi(input);
-    //     a[size++] = val;
-    // }
+    // 11b. Read inputs with capacity and stop with 'done'
+    // Textbook example modified to include sentinel value
+    size = 0;
+    string input;
+    cout << "Enter integers (type 'done' to stop):\n";
+    while(size < capacity) {
+        cout << "Value #" << size + 1 << ": ";
+        cin >> input;
+        if(input == "done") break;
+        // Consider adding additional input validation
+        // This line would throw an error if type mismatch
+        int val = stoi(input);
+        a[size++] = val;
+    }
     // cout << "Array after capacity-based input: ";
     // for(int i = 0; i < size; i++) cout << a[i] << " ";
     // cout << "\n\n";

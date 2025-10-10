@@ -28,12 +28,5 @@ else if (grade == 'C')
 else
    cout << "Invalid grade";
 
-// Option D
-if (grade == 'A')
-   cout << "Excellent";
-else
-   cout << "Good";
-
-
 
 
