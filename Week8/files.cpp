@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
+    // Challenge: Choose and learn one of the C++ keywords or concepts you're unfamiliar with
+
     // TODO: Create an input file stream
 
 
