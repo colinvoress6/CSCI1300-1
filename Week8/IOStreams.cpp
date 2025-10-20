@@ -135,7 +135,7 @@ void part2() {
     outFile.close();
 
     // Step 7: Open output.txt in append mode and add more lines
-    outFile.open("output.txt");
+    outFile.open("output.txt", fstream::app);
     if (!outFile.is_open()){
         cout << "error" << endl;
     }
